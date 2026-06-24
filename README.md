@@ -28,16 +28,16 @@ The application can still run if the LLM package or model is unavailable, but it
 2. On the GitHub repository page, select **Code**, copy the HTTPS clone URL, and clone it. Replace the placeholder below with the URL you copied:
 
    ```bash
-   git clone https://github.com/OWNER/REPOSITORY.git
+   git clone URL_PLACEHOLDER
    ```
 
 3. Enter the newly cloned project directory. Replace `REPOSITORY` with the folder created by `git clone`:
 
    ```bash
-   cd REPOSITORY
+   cd SecLogLabeler
    ```
 
-4. Optional but recommended: create and activate a virtual environment:
+4. Create and activate a virtual environment:
 
    ```bash
    python3 -m venv .venv
